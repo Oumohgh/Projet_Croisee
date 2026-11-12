@@ -18,7 +18,7 @@ def get_models():
     return {
         "LogisticRegression": LogisticRegression(max_iter=2000),
         "RandomForest": RandomForestClassifier(n_estimators=200, random_state=RANDOM_STATE),}
-
+        "X"G
 
 SCORING = {
     "accuracy": "accuracy",

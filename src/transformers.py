@@ -20,6 +20,7 @@ class IQRClipper(BaseEstimator, TransformerMixin):
     def transform(self, X):
         return np.clip(np.asarray(X, dtype=float), self.lower_, self.upper_)
 
+    
     def get_feature_names_out(self, input_features=None):
         if hasattr(self, "feature_names_in_"):
             return self.feature_names_in_
