@@ -22,9 +22,10 @@ with DAG(
     )
 
     preprocess = PythonOperator(
-        task_id="preprocess_data",
-        python_callable=preprocess_data
-    )
+    task_id="preprocess_data",
+    python_callable=preprocess_data,
+    do_xcom_push=False
+)
 
     train = PythonOperator(
         task_id="train_model",
