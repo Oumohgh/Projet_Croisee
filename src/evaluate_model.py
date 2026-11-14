@@ -1,27 +1,17 @@
 
 import pandas as pd
 import joblib
-
 from sklearn.metrics import (
-    accuracy_score,
-    precision_score,
-    recall_score,
-    f1_score,
-    confusion_matrix,
-    classification_report
-)
-
+    accuracy_score,precision_score,recall_score,f1_score,confusion_matrix,classification_report)
 from src.config import *
 
 
 def evaluate_model():
-
     X_test = pd.read_csv(PROCESSED_DIR / "X_test.csv")
     y_test = pd.read_csv(PROCESSED_DIR / "y_test.csv").squeeze()
 
     pipeline = joblib.load(
-        MODELS_DIR / "meilleur_modele.joblib"
-    )
+        MODELS_DIR / "meilleur_modele.joblib")
 
     y_pred = pipeline.predict(X_test)
 
