@@ -16,7 +16,6 @@ from sklearn.metrics import (
 
 st.set_page_config(
     page_title="Student Mental Health Analysis",
-    page_icon="🎓",
     layout="wide"
 )
 

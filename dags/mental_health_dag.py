@@ -18,23 +18,19 @@ with DAG(
 
     prepare = PythonOperator(
         task_id="prepare_data",
-        python_callable=prepare_data
-    )
+        python_callable=prepare_data)
 
     preprocess = PythonOperator(
     task_id="preprocess_data",
     python_callable=preprocess_data,
-    do_xcom_push=False
-)
+    do_xcom_push=False)
 
     train = PythonOperator(
         task_id="train_model",
-        python_callable=train_model
-    )
+        python_callable=train_model)
 
     evaluate = PythonOperator(
         task_id="evaluate_model",
-        python_callable=evaluate_model
-    )
+        python_callable=evaluate_model)
 
     prepare >> preprocess >> train >> evaluate
