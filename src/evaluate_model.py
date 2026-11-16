@@ -1,8 +1,7 @@
 
 import pandas as pd
 import joblib
-from sklearn.metrics import (
-    accuracy_score,precision_score,recall_score,f1_score,confusion_matrix,classification_report)
+from sklearn.metrics import (accuracy_score,precision_score,recall_score,f1_score,confusion_matrix,classification_report)
 from src.config import *
 
 
@@ -26,11 +25,7 @@ def evaluate_model():
     print("F1-score :", f1)
 
     print("Classification Report :")
-    print(classification_report(
-        y_test,
-        y_pred,
-        target_names=RISK_LABELS
-    ))
+    print(classification_report(y_test,y_pred,target_names=RISK_LABELS))
 
     print("Matrice de confusion :")
     print(confusion_matrix(y_test, y_pred))

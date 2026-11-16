@@ -5615,3 +5615,323 @@ Traceback (most recent call last):
 ModuleNotFoundError: No module named 'src.transformers'
 [2026-11-15T20:48:32.803+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/mental_health_dag.py
 [2026-11-15T20:48:32.825+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/mental_health_dag.py took 1.101 seconds
+[2026-11-15T20:49:02.891+0000] {processor.py:161} INFO - Started process (PID=25466) to work on /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:49:02.893+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/mental_health_dag.py for tasks to queue
+[2026-11-15T20:49:02.894+0000] {logging_mixin.py:188} INFO - [2026-11-15T20:49:02.894+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:49:03.752+0000] {logging_mixin.py:188} INFO - [2026-11-15T20:49:03.744+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/mental_health_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/mental_health_dag.py", line 7, in <module>
+    from src.preprocess_data import preprocess_data
+  File "/opt/airflow/src/preprocess_data.py", line 9, in <module>
+    from src.transformers import IQRClipper
+ModuleNotFoundError: No module named 'src.transformers'
+[2026-11-15T20:49:03.754+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:49:03.775+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/mental_health_dag.py took 1.035 seconds
+[2026-11-15T20:49:33.912+0000] {processor.py:161} INFO - Started process (PID=25486) to work on /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:49:33.914+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/mental_health_dag.py for tasks to queue
+[2026-11-15T20:49:33.915+0000] {logging_mixin.py:188} INFO - [2026-11-15T20:49:33.914+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:49:35.515+0000] {logging_mixin.py:188} INFO - [2026-11-15T20:49:35.509+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/mental_health_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/mental_health_dag.py", line 7, in <module>
+    from src.preprocess_data import preprocess_data
+  File "/opt/airflow/src/preprocess_data.py", line 9, in <module>
+    from src.transformers import IQRClipper
+ModuleNotFoundError: No module named 'src.transformers'
+[2026-11-15T20:49:35.517+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:49:35.535+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/mental_health_dag.py took 1.634 seconds
+[2026-11-15T20:50:05.674+0000] {processor.py:161} INFO - Started process (PID=25499) to work on /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:50:05.676+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/mental_health_dag.py for tasks to queue
+[2026-11-15T20:50:05.677+0000] {logging_mixin.py:188} INFO - [2026-11-15T20:50:05.677+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:50:08.204+0000] {logging_mixin.py:188} INFO - [2026-11-15T20:50:08.196+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/mental_health_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/mental_health_dag.py", line 7, in <module>
+    from src.preprocess_data import preprocess_data
+  File "/opt/airflow/src/preprocess_data.py", line 9, in <module>
+    from src.transformers import IQRClipper
+ModuleNotFoundError: No module named 'src.transformers'
+[2026-11-15T20:50:08.214+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:50:08.253+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/mental_health_dag.py took 2.590 seconds
+[2026-11-15T20:50:38.413+0000] {processor.py:161} INFO - Started process (PID=25519) to work on /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:50:38.415+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/mental_health_dag.py for tasks to queue
+[2026-11-15T20:50:38.416+0000] {logging_mixin.py:188} INFO - [2026-11-15T20:50:38.415+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:50:39.316+0000] {logging_mixin.py:188} INFO - [2026-11-15T20:50:39.310+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/mental_health_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/mental_health_dag.py", line 7, in <module>
+    from src.preprocess_data import preprocess_data
+  File "/opt/airflow/src/preprocess_data.py", line 9, in <module>
+    from src.transformers import IQRClipper
+ModuleNotFoundError: No module named 'src.transformers'
+[2026-11-15T20:50:39.317+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:50:39.334+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/mental_health_dag.py took 0.927 seconds
+[2026-11-15T20:51:09.440+0000] {processor.py:161} INFO - Started process (PID=25539) to work on /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:51:09.441+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/mental_health_dag.py for tasks to queue
+[2026-11-15T20:51:09.442+0000] {logging_mixin.py:188} INFO - [2026-11-15T20:51:09.442+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:51:10.716+0000] {logging_mixin.py:188} INFO - [2026-11-15T20:51:10.707+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/mental_health_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/mental_health_dag.py", line 7, in <module>
+    from src.preprocess_data import preprocess_data
+  File "/opt/airflow/src/preprocess_data.py", line 9, in <module>
+    from src.transformers import IQRClipper
+ModuleNotFoundError: No module named 'src.transformers'
+[2026-11-15T20:51:10.720+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:51:10.751+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/mental_health_dag.py took 1.321 seconds
+[2026-11-15T20:51:40.838+0000] {processor.py:161} INFO - Started process (PID=25559) to work on /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:51:40.839+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/mental_health_dag.py for tasks to queue
+[2026-11-15T20:51:40.840+0000] {logging_mixin.py:188} INFO - [2026-11-15T20:51:40.840+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:51:41.806+0000] {logging_mixin.py:188} INFO - [2026-11-15T20:51:41.798+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/mental_health_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/mental_health_dag.py", line 7, in <module>
+    from src.preprocess_data import preprocess_data
+  File "/opt/airflow/src/preprocess_data.py", line 9, in <module>
+    from src.transformers import IQRClipper
+ModuleNotFoundError: No module named 'src.transformers'
+[2026-11-15T20:51:41.808+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:51:41.825+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/mental_health_dag.py took 0.995 seconds
+[2026-11-15T20:52:11.973+0000] {processor.py:161} INFO - Started process (PID=25579) to work on /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:52:11.977+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/mental_health_dag.py for tasks to queue
+[2026-11-15T20:52:11.978+0000] {logging_mixin.py:188} INFO - [2026-11-15T20:52:11.978+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:52:13.037+0000] {logging_mixin.py:188} INFO - [2026-11-15T20:52:13.031+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/mental_health_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/mental_health_dag.py", line 7, in <module>
+    from src.preprocess_data import preprocess_data
+  File "/opt/airflow/src/preprocess_data.py", line 9, in <module>
+    from src.transformers import IQRClipper
+ModuleNotFoundError: No module named 'src.transformers'
+[2026-11-15T20:52:13.040+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:52:13.066+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/mental_health_dag.py took 1.105 seconds
+[2026-11-15T20:52:43.183+0000] {processor.py:161} INFO - Started process (PID=25599) to work on /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:52:43.184+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/mental_health_dag.py for tasks to queue
+[2026-11-15T20:52:43.187+0000] {logging_mixin.py:188} INFO - [2026-11-15T20:52:43.185+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:52:44.490+0000] {logging_mixin.py:188} INFO - [2026-11-15T20:52:44.483+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/mental_health_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/mental_health_dag.py", line 7, in <module>
+    from src.preprocess_data import preprocess_data
+  File "/opt/airflow/src/preprocess_data.py", line 9, in <module>
+    from src.transformers import IQRClipper
+ModuleNotFoundError: No module named 'src.transformers'
+[2026-11-15T20:52:44.492+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:52:44.509+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/mental_health_dag.py took 1.333 seconds
+[2026-11-15T20:53:14.627+0000] {processor.py:161} INFO - Started process (PID=25619) to work on /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:53:14.629+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/mental_health_dag.py for tasks to queue
+[2026-11-15T20:53:14.630+0000] {logging_mixin.py:188} INFO - [2026-11-15T20:53:14.630+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:53:15.698+0000] {logging_mixin.py:188} INFO - [2026-11-15T20:53:15.694+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/mental_health_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/mental_health_dag.py", line 7, in <module>
+    from src.preprocess_data import preprocess_data
+  File "/opt/airflow/src/preprocess_data.py", line 9, in <module>
+    from src.transformers import IQRClipper
+ModuleNotFoundError: No module named 'src.transformers'
+[2026-11-15T20:53:15.700+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:53:15.717+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/mental_health_dag.py took 1.099 seconds
+[2026-11-15T20:53:45.804+0000] {processor.py:161} INFO - Started process (PID=25639) to work on /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:53:45.805+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/mental_health_dag.py for tasks to queue
+[2026-11-15T20:53:45.806+0000] {logging_mixin.py:188} INFO - [2026-11-15T20:53:45.806+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:53:47.125+0000] {logging_mixin.py:188} INFO - [2026-11-15T20:53:47.116+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/mental_health_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/mental_health_dag.py", line 7, in <module>
+    from src.preprocess_data import preprocess_data
+  File "/opt/airflow/src/preprocess_data.py", line 9, in <module>
+    from src.transformers import IQRClipper
+ModuleNotFoundError: No module named 'src.transformers'
+[2026-11-15T20:53:47.130+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:53:47.149+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/mental_health_dag.py took 1.356 seconds
+[2026-11-15T20:54:17.295+0000] {processor.py:161} INFO - Started process (PID=25659) to work on /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:54:17.299+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/mental_health_dag.py for tasks to queue
+[2026-11-15T20:54:17.302+0000] {logging_mixin.py:188} INFO - [2026-11-15T20:54:17.301+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:54:18.624+0000] {logging_mixin.py:188} INFO - [2026-11-15T20:54:18.614+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/mental_health_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/mental_health_dag.py", line 7, in <module>
+    from src.preprocess_data import preprocess_data
+  File "/opt/airflow/src/preprocess_data.py", line 9, in <module>
+    from src.transformers import IQRClipper
+ModuleNotFoundError: No module named 'src.transformers'
+[2026-11-15T20:54:18.627+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:54:18.648+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/mental_health_dag.py took 1.361 seconds
+[2026-11-15T20:54:48.764+0000] {processor.py:161} INFO - Started process (PID=25679) to work on /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:54:48.765+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/mental_health_dag.py for tasks to queue
+[2026-11-15T20:54:48.767+0000] {logging_mixin.py:188} INFO - [2026-11-15T20:54:48.766+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:54:49.803+0000] {logging_mixin.py:188} INFO - [2026-11-15T20:54:49.797+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/mental_health_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/mental_health_dag.py", line 7, in <module>
+    from src.preprocess_data import preprocess_data
+  File "/opt/airflow/src/preprocess_data.py", line 9, in <module>
+    from src.transformers import IQRClipper
+ModuleNotFoundError: No module named 'src.transformers'
+[2026-11-15T20:54:49.805+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:54:49.827+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/mental_health_dag.py took 1.071 seconds
+[2026-11-15T20:55:19.886+0000] {processor.py:161} INFO - Started process (PID=25699) to work on /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:55:19.888+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/mental_health_dag.py for tasks to queue
+[2026-11-15T20:55:19.889+0000] {logging_mixin.py:188} INFO - [2026-11-15T20:55:19.888+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:55:20.858+0000] {logging_mixin.py:188} INFO - [2026-11-15T20:55:20.852+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/mental_health_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/mental_health_dag.py", line 7, in <module>
+    from src.preprocess_data import preprocess_data
+  File "/opt/airflow/src/preprocess_data.py", line 9, in <module>
+    from src.transformers import IQRClipper
+ModuleNotFoundError: No module named 'src.transformers'
+[2026-11-15T20:55:20.859+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:55:20.877+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/mental_health_dag.py took 1.000 seconds
+[2026-11-15T20:55:50.980+0000] {processor.py:161} INFO - Started process (PID=25719) to work on /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:55:50.981+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/mental_health_dag.py for tasks to queue
+[2026-11-15T20:55:50.982+0000] {logging_mixin.py:188} INFO - [2026-11-15T20:55:50.981+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:55:51.906+0000] {logging_mixin.py:188} INFO - [2026-11-15T20:55:51.899+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/mental_health_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/mental_health_dag.py", line 7, in <module>
+    from src.preprocess_data import preprocess_data
+  File "/opt/airflow/src/preprocess_data.py", line 9, in <module>
+    from src.transformers import IQRClipper
+ModuleNotFoundError: No module named 'src.transformers'
+[2026-11-15T20:55:51.908+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:55:51.927+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/mental_health_dag.py took 0.953 seconds
+[2026-11-15T20:56:22.051+0000] {processor.py:161} INFO - Started process (PID=25739) to work on /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:56:22.052+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/mental_health_dag.py for tasks to queue
+[2026-11-15T20:56:22.053+0000] {logging_mixin.py:188} INFO - [2026-11-15T20:56:22.053+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:56:23.007+0000] {logging_mixin.py:188} INFO - [2026-11-15T20:56:23.002+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/mental_health_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/mental_health_dag.py", line 7, in <module>
+    from src.preprocess_data import preprocess_data
+  File "/opt/airflow/src/preprocess_data.py", line 9, in <module>
+    from src.transformers import IQRClipper
+ModuleNotFoundError: No module named 'src.transformers'
+[2026-11-15T20:56:23.008+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:56:23.026+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/mental_health_dag.py took 0.980 seconds
+[2026-11-15T20:56:53.153+0000] {processor.py:161} INFO - Started process (PID=25759) to work on /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:56:53.154+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/mental_health_dag.py for tasks to queue
+[2026-11-15T20:56:53.155+0000] {logging_mixin.py:188} INFO - [2026-11-15T20:56:53.155+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:56:54.047+0000] {logging_mixin.py:188} INFO - [2026-11-15T20:56:54.037+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/mental_health_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/mental_health_dag.py", line 7, in <module>
+    from src.preprocess_data import preprocess_data
+  File "/opt/airflow/src/preprocess_data.py", line 9, in <module>
+    from src.transformers import IQRClipper
+ModuleNotFoundError: No module named 'src.transformers'
+[2026-11-15T20:56:54.049+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:56:54.065+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/mental_health_dag.py took 0.918 seconds
+[2026-11-15T20:57:24.204+0000] {processor.py:161} INFO - Started process (PID=25779) to work on /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:57:24.205+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/mental_health_dag.py for tasks to queue
+[2026-11-15T20:57:24.206+0000] {logging_mixin.py:188} INFO - [2026-11-15T20:57:24.206+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:57:25.074+0000] {logging_mixin.py:188} INFO - [2026-11-15T20:57:25.068+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/mental_health_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/mental_health_dag.py", line 7, in <module>
+    from src.preprocess_data import preprocess_data
+  File "/opt/airflow/src/preprocess_data.py", line 9, in <module>
+    from src.transformers import IQRClipper
+ModuleNotFoundError: No module named 'src.transformers'
+[2026-11-15T20:57:25.075+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:57:25.092+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/mental_health_dag.py took 0.893 seconds
+[2026-11-15T20:57:55.238+0000] {processor.py:161} INFO - Started process (PID=25799) to work on /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:57:55.239+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/mental_health_dag.py for tasks to queue
+[2026-11-15T20:57:55.240+0000] {logging_mixin.py:188} INFO - [2026-11-15T20:57:55.240+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:57:56.099+0000] {logging_mixin.py:188} INFO - [2026-11-15T20:57:56.091+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/mental_health_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/mental_health_dag.py", line 7, in <module>
+    from src.preprocess_data import preprocess_data
+  File "/opt/airflow/src/preprocess_data.py", line 9, in <module>
+    from src.transformers import IQRClipper
+ModuleNotFoundError: No module named 'src.transformers'
+[2026-11-15T20:57:56.100+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:57:56.117+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/mental_health_dag.py took 0.887 seconds
+[2026-11-15T20:58:26.243+0000] {processor.py:161} INFO - Started process (PID=25819) to work on /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:58:26.244+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/mental_health_dag.py for tasks to queue
+[2026-11-15T20:58:26.245+0000] {logging_mixin.py:188} INFO - [2026-11-15T20:58:26.245+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:58:27.384+0000] {logging_mixin.py:188} INFO - [2026-11-15T20:58:27.375+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/mental_health_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/mental_health_dag.py", line 7, in <module>
+    from src.preprocess_data import preprocess_data
+  File "/opt/airflow/src/preprocess_data.py", line 9, in <module>
+    from src.transformers import IQRClipper
+ModuleNotFoundError: No module named 'src.transformers'
+[2026-11-15T20:58:27.385+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:58:27.402+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/mental_health_dag.py took 1.167 seconds
+[2026-11-15T20:58:57.486+0000] {processor.py:161} INFO - Started process (PID=25839) to work on /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:58:57.488+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/mental_health_dag.py for tasks to queue
+[2026-11-15T20:58:57.489+0000] {logging_mixin.py:188} INFO - [2026-11-15T20:58:57.488+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:58:58.534+0000] {logging_mixin.py:188} INFO - [2026-11-15T20:58:58.528+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/mental_health_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/mental_health_dag.py", line 7, in <module>
+    from src.preprocess_data import preprocess_data
+  File "/opt/airflow/src/preprocess_data.py", line 9, in <module>
+    from src.transformers import IQRClipper
+ModuleNotFoundError: No module named 'src.transformers'
+[2026-11-15T20:58:58.536+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/mental_health_dag.py
+[2026-11-15T20:58:58.556+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/mental_health_dag.py took 1.077 seconds

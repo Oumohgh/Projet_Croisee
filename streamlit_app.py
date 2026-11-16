@@ -5,19 +5,9 @@ import pandas as pd
 import streamlit as st
 import matplotlib.pyplot as plt
 
-from sklearn.metrics import (
-    accuracy_score,
-    precision_score,
-    recall_score,
-    f1_score,
-    classification_report,
-    ConfusionMatrixDisplay
-)
+from sklearn.metrics import (accuracy_score,precision_score,recall_score,f1_score,classification_report,ConfusionMatrixDisplay)
 
-st.set_page_config(
-    page_title="Student Mental Health Analysis",
-    layout="wide"
-)
+st.set_page_config(page_title="Student Mental Health Analysis",layout="wide")
 
 ROOT = Path(__file__).resolve().parent
 MODEL_PATH = ROOT / "models" / "meilleur_modele.joblib"
@@ -41,8 +31,7 @@ FEATURE_COLUMNS = [
     "Attendance_Rate",
     "Part_Time_Job",
     "Diet_Quality",
-    "Previous_Mental_Health_History"
-]
+    "Previous_Mental_Health_History"]
 
 
 @st.cache_resource
@@ -50,7 +39,7 @@ def load_model():
     return joblib.load(MODEL_PATH)
 
 
-st.title("🎓 Student Mental Health Analysis")
+st.title(" Student Mental Health Analysis")
 st.caption(
     "Educational Machine Learning project. "
     "This application is not a medical diagnosis or screening tool."
@@ -209,34 +198,27 @@ elif page == "Make a Prediction":
             )
 
             financial_stress = st.slider(
-                "Financial Stress", 0.0, 10.0, 5.0
-            )
+                "Financial Stress", 0.0, 10.0, 5.0)
 
             family_support = st.slider(
-                "Family Support", 0.0, 10.0, 5.0
-            )
+                "Family Support", 0.0, 10.0, 5.0)
 
             attendance = st.slider(
-                "Attendance Rate (%)", 0, 100, 85
-            )
+                "Attendance Rate (%)", 0, 100, 85)
 
             part_time_job = st.selectbox(
-                "Part-Time Job", ["No", "Yes"]
-            )
+                "Part-Time Job", ["No", "Yes"])
 
             diet_quality = st.selectbox(
-                "Diet Quality", ["Poor", "Average", "Good"]
-            )
+                "Diet Quality", ["Poor", "Average", "Good"])
 
             previous_history = st.selectbox(
                 "Previous Mental Health History",
-                ["No", "Yes"]
-            )
+                ["No", "Yes"])
 
         submitted = st.form_submit_button(
             "Predict",
-            use_container_width=True
-        )
+            use_container_width=True)
 
     if submitted:
 
